@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hacker News Clone</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Hacker News Clone</h1>
+      <form id="login-form">
+        <label>
+          Username:
+          <input type="text" name="username">
+        </label>
+        <label>
+          Password:
+          <input type="password" name="password">
+        </label>
+        <button type="submit">Log In</button>
+      </form>
+    </header>
+    <main>
+      <section id="articles-section">
+        <h2>Top Stories</h2>
+        <ul id="articles-list"></ul>
+      </section>
+      <section id="favorites-section">
+        <h2>Favorites</h2>
+        <ul id="favorites-list"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
